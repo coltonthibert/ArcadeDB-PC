@@ -1,0 +1,30 @@
+.table-view .table-cell {
+    -fx-background-color: rgba(21, 17, 22, 0.5);
+    -fx-text-fill: white;
+    -fx-font-family: "JetBrains Mono";
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: transparent; /* Set row background to transparent */
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: rgba(76, 0, 89, 0.3);
+}
+
+.table-view {
+    -fx-background-color: rgba(76, 0, 89, 0.3); /* Adjust alpha for the TableView background */
+    -fx-font-family: "JetBrains Mono";
+}
+
+/* Hover effect for rows */
+.table-row-cell:hover {
+    -fx-background-color: rgba(128, 75, 190, 0.5);
+}
+
+/* Selection color */
+.table-row-cell:selected {
+    -fx-background-color: #b3d9ff; /* Background color for selected rows */
+    -fx-text-fill: #000000; /* Text color for selected rows */
+}
+
